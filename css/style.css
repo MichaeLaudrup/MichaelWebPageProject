@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box; 
+
+}
+
+
+#navbarNav{
+	flex-direction:row-reverse;
+
+}
+#lista {
+	margin-right:0px;
+	right:0px !important	; 
+}
+#lista > li > a{
+	padding-left:4vw;	 
+}
