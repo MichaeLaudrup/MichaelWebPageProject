@@ -3,15 +3,24 @@
 
 }
 
-
+.navbar{
+	opacity:0.8; /*Opacidad de navegador principal */
+}
 #navbarNav{
 	flex-direction:row-reverse;
+
 
 }
 #lista {
 	margin-right:0px;
+	opacity:0.8;
 	right:0px !important	; 
 }
 #lista > li > a{
-	padding-left:4vw;	 
+	padding-left:3vw;	 
 }
+
+#carouselExampleSlidesOnly{
+	max-height: 10px;
+}
+
