@@ -7,14 +7,15 @@
 	opacity:0.9; /*Opacidad de navegador principal */
 }
 #brand-title{
-	font-size: 1.6em;
+	font-size: 1.9em;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 #navbarNav{
 	flex-direction:row-reverse;
 }
 #lista {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	opacity:0.8;
 }
 #lista > li > a{
@@ -62,9 +63,9 @@
 
 pre > h3 {
 	font-size: 2vw;
-	font-style: oblique;
+	font-style: bold;
 	color:white;
-	font-family:'Crimson Text',sans-serif;
+	font-family: 'Crimson Text', serif;
   margin-bottom: -0.5%;
 }
 
@@ -93,11 +94,11 @@ pre > h3 {
 }
 #text-filaInterna{
 	color: #343a40;
-	text-align: justify;
+	text-align: center;
 	padding-left:16%;
 	padding-right:16%;
 	padding-top: 4%;
-	font-size: 1.8em;
+	font-size: 1.1em;
 }
 .deslizable{
 	position:absolute;
@@ -140,11 +141,69 @@ pre > h3 {
 }
 
 #descripcion-academia:hover > .deslizable  > p{
-   font-size: 0em;
-	 -webkit-transition: width 1.4s linear;
- 	-moz-transition: width 1.4s linear;
- 	-ms-transition: width 1.4s linear;
- 	-o-transition: width 1.4s linear;
- 	transition: width 1.4s linear;
+   display:none;
 
+}
+/**/
+#imagenFila1{
+	max-height: 400px;
+}
+
+
+/* Resumen de web desing section */
+.webDesingAbstract {
+	height: 250px;
+}
+
+#webDesing-DeslizableIzq{
+  position:absolute;
+	left:0px;
+	background-color:  #343a40;
+}
+#webDesing-DeslizableDer{
+  position:absolute;
+	right: 0px;
+	background-color: #343a40;
+}
+
+.encapsulado:hover > #webDesing-DeslizableIzq {
+	   width: 0%;
+		 padding-right: 0px;
+	   padding-left: 0px;
+		 -webkit-transition: width 1.5s linear;
+	 	-moz-transition: width 1.5s linear;
+	 	-ms-transition: width 1.5s linear;
+	 	-o-transition: width 1.5s linear;
+	 	transition: width 1.5s linear;
+}
+.encapsulado:hover > #webDesing-DeslizableDer {
+	   width:0%;
+		 padding-right: 0px;
+	   padding-left: 0px;
+		 -webkit-transition: width 1.5s linear;
+	 	-moz-transition: width 1.5s linear;
+	 	-ms-transition: width 1.5s linear;
+	 	-o-transition: width 1.5s linear;
+	 	transition: width 1.5s linear;
+}
+#filaWebDesign{
+    height: 250px;
+		margin-top: -250px;
+
+}
+#descripcionWebDesing {
+	  height: 250px;
+		font-size: 1.1em;
+		font-family: 'Crimson Text', serif;
+	  position:relative;
+    align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding-left:16%;
+		padding-right: 16%;
+		padding-top: 2%;
+		padding-bottom:2%;
+}
+.encapsulado {
+	height: 250px;
 }
