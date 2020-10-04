@@ -7,6 +7,7 @@
 	<title>Michael Laudrup WebSite</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/ResponsiveDesing.css">
 </head>
 <body>
   <header>
