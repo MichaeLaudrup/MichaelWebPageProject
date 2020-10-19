@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/ResponsiveDesing.css">
 </head>
-<body>
   <header>
+		
     <!-- Area de navegacion -->
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <!-- Marca de la web -->
@@ -43,4 +43,3 @@
       </div>
     </nav>
   </header>
-</body>

@@ -20,19 +20,21 @@
 <div id="welcome-Box" >
 	<img class="main-image " src="images/portfolio-main.jpg" alt="Visita a los pirineos franceses">
 	<div class="home-Welcome-textBox d-none d-sm-block" >
-		<pre id="home-welcome-text"><h3>Welcome to Michael's Portfolio</h3>
-On this space you can know me better, here you will discover
-incredible things that will allow you to appreciate that I am
-a good candidate to work in <strong>your company </strong>....</pre>
+		<pre id="home-welcome-text"><h3>Bienvenido al portfolio de Michael</h3>
+En este espacio podrás conocerme mejor, aquí descrubiras cosas
+increíbles que te permitirán apreciar que soy el candidato
+perfecto para trabajar en <strong>tu compañia</strong>, es bien
+sabido que la calidad exige tiempo, por ello, este espacio web
+esta en fase de construcción. </pre>
    </div>
 
 </div>
 <!-- FIN Cabecera de la pagina web -->
 <div class="container-fluid">
 	<div class="row">
-		<div id="DescripcionAcademia" class="col-12">
+		<div id="DescripcionAcademia" class="col-12 description-box">
 			<p class="descriptions">Cuando empezamos a explorar el mundo de desarrollo web, lo primero que se aprecia es que la cantidad de tecnologías existentes es abrumadora, el objetivo
-			de academia, es poner un poco de orden, dandote información de alta calidad que te permita entender cuando debes usar unas u otras.</p>
+			de academia, es poner un poco de orden, dandote información de alta calidad que te permita entender cuando debes usar unas u otras tenologías.</p>
 			 <div id="deslizableSuperiorAcademia" class="col-12">
 					<p class="row-titles">Academia</p>
 			</div>
@@ -45,37 +47,35 @@ a good candidate to work in <strong>your company </strong>....</pre>
 
 	<!-- SECCION DE DESCROPCION DE WEB DESING CON DESLIZABLES -->
 	<div class="row" >
-		<div id="webDesing-description" class="col-12" >
+		<div id="webDesing-description" class="col-12 description-box" >
 		<p class="descriptions">En este espacio apreciaras como puedo ayudar a tu empresa descubriendo mi potencial creativo en el arte del diseño web, con un desarrollo full-stack (Front-end y Back-end)
 		en modelos de negocio totalmente diversos.  </p>
-		</div>
+
 	  <div id="full-slider" class="col-12">
 			<div id="right-slider"class="sliding-half">
-				<p id="webtitle-right" class="row-titles" >Diseño web</p>
+				<p  class="row-titles" >o web</p>
 	    </div>
 			<div id="left-slider"class="sliding-half" >
-				<p id="webtitle-left"class="row-titles" >Diseño</p>
+				<p class="row-titles" >Diseñ</p>
 	    </div>
 	  </div>
+	</div>
   </div>
-
-
 
 	<div class="row">
 			<img src="images/fila3.jpg" alt="xd" style="width:100%;max-height:400px; ">
 	</div>
   <div class="row" >
-			<div id="DescripcionMelodias" class="col-12">
-				 <p class="descriptions">Dicen que la música es el reflejo del alma, que mejor manera de mostrarme al mundo que mostrando mi música, en el rincón de melodías podrás escuchar ciertas composiciones musicales
+			<div id="DescripcionMelodias" class="col-12 description-box">
+				 <p class="descriptions">Dicen que la música es el reflejo del alma, que mejor manera de mostrarse al mundo que mostrando tu música, en el rincón de melodías podrás escuchar ciertas composiciones musicales
 				 que he realizado de manera informal y que tal vez puedan endulzar tus oídos.</p>
 				 <div id="deslizableSuperiorMelodias" class="col-12">
 	 					<p class="row-titles">Melodías</p>
 	 			</div>
 			</div>
-
   </div>
-</div>
-
+	</div>
+	<?php require_once 'FragmentosPHP/footer.php';  ?>
 
 
 <script src="js/jquery-3.5.1.js"></script>

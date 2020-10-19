@@ -73,16 +73,15 @@ pre > h3 {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	height: 350px;
-	padding: 2% 16% 2% 16%;
+	padding: 4% 10% 4% 10%;
 	overflow: hidden;
 }
 #deslizableSuperiorAcademia{
 	position:absolute;
+	height: 100%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	height: 350px;
 	background-color: #343a40;
 	transition: transform 2s easet;
 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
@@ -101,18 +100,20 @@ pre > h3 {
 /*FIN PRIMERA FILA DESLIZABLE ACADEMIA*/
 
 #webDesing-description{
-	height: 350px;
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	padding:2% 16% 2% 16%;
+	padding:4% 10% 4% 10%;
 }
+
+
 .sliding-half{
-	height: 350px;
+	height: 100%;
 	background-color:#343a40 ;
 	width: 50%;
 }
 #full-slider{
+	height: 100%;
 	overflow: hidden;
 	position:absolute;
 	padding:0;
@@ -120,6 +121,10 @@ pre > h3 {
 #right-slider{
 	overflow: hidden;
 	position:absolute;
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
 	right: 0px;
 	transition: transform 2s ease;
 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
@@ -127,6 +132,10 @@ pre > h3 {
 	-o-transition: transform 2s ease; /** Opera **/
 }
 #left-slider{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
 	overflow: hidden;
 	transition: transform 2s ease;
 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
@@ -165,10 +174,10 @@ pre > h3 {
 	 		display:flex;
 			justify-content: center;
 			align-items: center;
-			height: 350px;
-			padding: 2% 16% 2% 16%;
 			text-align: center;
+			width: 100%;
 			overflow: hidden;
+			padding:4% 12% 4% 12%;
  }
 
  #deslizableSuperiorMelodias {
@@ -176,7 +185,7 @@ pre > h3 {
 	 		display:flex;
 			justify-content: center;
 			align-items: center;
-			height: 350px;
+			height: 100%;
 			background-color: #343a40;
 			transition: transform 2s easet;
 			-webkit-transition: transform 2s ease; /** Chrome & Safari **/
@@ -193,6 +202,4 @@ pre > h3 {
       -webkit-transition: transform 2s ease; /** Chrome & Safari **/
       -moz-transition: transform 2s ease; /** Firefox **/
       -o-transition: transform 2s ease; /** Opera **/
-
-
 }
