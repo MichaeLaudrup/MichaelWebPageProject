@@ -11,8 +11,8 @@
 
 	</div>
 	<div class="row welcome-MobileMode onlyphone" >
-		<h3>Bienvenido al portfolio de Michael</h3><br> En este espacio podrás conocerme mejor, aquí descrubiras cosas	increíbles que te permitirán apreciar que soy el candidato
-	  perfecto para trabajar en tu compañia, es bien  sabido que la calidad exige tiempo, por ello, este espacio web esta en fase alpha de construcción.
+		<h3>Bienvenido al portfolio de Michael</h3><br> En este espacio podrás conocerme mejor, aquí descrubiras mis habilidades, las cuales, te permitirán apreciar que soy el candidato
+	  perfecto para trabajar en tu compañia software, es bien  sabido que la calidad exige tiempo, por ello, este espacio web esta en fase beta de construcción.
 	</div>
 
 	<div id="First-imageRow" class="onlyphone row rowImage">
