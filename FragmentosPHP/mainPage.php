@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="css/mainPage-style.css">
-<link rel="stylesheet" href="css/ResponsiveDesing.css">
+
 
 <!-- Fragmento de texto -->
 <!-- Este mensaje de bienvenida solo se muestra en pc, table... no movil-->

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <!-- Footer -->
-  <link rel="stylesheet" href="css/footer-style.css">
+
   <footer>
     <!-- Footer Elements -->
     <div class="container-fluid">

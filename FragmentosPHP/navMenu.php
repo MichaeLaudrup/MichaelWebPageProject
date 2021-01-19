@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-	<link rel="stylesheet" href="css/header-style.css">
+
 	<header>
     <!-- Area de navegacion -->
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">

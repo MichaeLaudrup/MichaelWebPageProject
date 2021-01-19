@@ -1,4 +1,412 @@
+
+
+/* ======= ESTILO APLICABLES A CADA ELEMENTOS DEL DOCUMENTO HTML */
 *{
 	box-sizing: border-box;
   font-family: 'Crimson Text', serif;
 }
+
+
+/*======= FIN ESTILOS GLOBALES =========*/
+/*Menu de navegacion principal*/
+.navbar{
+	opacity:0.9; /*Opacidad de navegador principal */
+}
+#brand-title{
+	font-family: 'Cinzel Decorative', cursive;
+}
+#navbarNav{
+	flex-direction:row-reverse;
+}
+#lista {
+	opacity:0.8;
+}
+#lista > li > a{
+	padding-left:3vw;
+}
+
+
+@media (max-width: 575.98px) {
+	#brand-title{
+		font-size: 4.5vw;
+	}
+	#lista {
+		font-size: 1.5em;
+		opacity:0.8;
+	}
+
+ }
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#brand-title{
+		font-size: 1.5em;
+	}
+	#lista {
+		color:white;
+		font-size: 1.4em;
+		opacity:0.8;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	#brand-title{
+		font-size: 1em;
+	}
+	#lista {
+		font-size: 1em;
+		opacity:0.8;
+	}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+#brand-title{
+	font-size: 1.6em;
+}
+#lista {
+	font-size: 1.2em;
+	opacity:0.8;
+}
+
+}
+/* FOOTER */
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#brand-title{
+		font-size: 1.7em;
+	}
+	#lista {
+		font-size: 1.6em;
+		opacity:1;
+	}
+ }
+
+ #contenedor-iconos{
+   height:250px;
+   background-color: #343a40;
+   opacity: 0.9;
+   width: 100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .area-link{
+   height: 20%;
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .iconos{
+    width: 100%;
+    height:100%;
+
+ }
+
+ /*MAIN PAGE STYLE*/
+ /*Imagen principal de pagina de inicio*/
+
+ .main-image {
+ 	width: 100%;
+ 	height: auto;
+ }
+ #welcome-Box{
+ 	position:relative;
+ 	width: 100%;
+ 	height: auto;
+ 	font-size: 1.5vw;
+ }
+ .home-Welcome-textBox{
+ 	position:absolute;
+ 		top:35%;
+ 		background-color: #343a40;
+ 		padding: 1%;
+ 		left:10%;
+ 		opacity: 0.7;
+ 		-webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+ }
+ .home-Welcome-textBox:hover{
+ 	  position:absolute;
+ 		top:35%;
+ 		background-color: #343a40;
+ 		padding: 1%;
+ 		left:10%;
+ 		opacity:0.9;
+ 		-webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+ }
+ #home-welcome-text{
+ 	color:white;
+ 	margin-bottom:2px;
+ 	font-family: 'Crimson Text',sans-serif;
+ }
+
+ /*BIENVENIDA EN SMARTPHONES*/
+ .welcome-MobileMode{
+ 	background-color:#343a40;
+ 	color:white;
+ 	padding: 5% 10% 5% 10%;
+ }
+ .welcome-MobileMode > h3 {
+ 	font-size: 2em;
+
+ }
+
+
+ pre > h3 {
+ 	font-size: 2vw;
+ 	font-style: bold;
+ 	color:white;
+ 	font-family: 'Crimson Text', serif;
+   margin-bottom: -0.5%;
+ }
+
+
+ /*Primera fila deslizable de seccion Academia*/
+ #DescripcionAcademia{
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 4% 10% 4% 10%;
+ 	overflow: hidden;
+
+ }
+ #deslizableSuperiorAcademia{
+ 	position:absolute;
+ 	height: 100%;
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #343a40;
+ 	transition: transform 3s easet;
+ 	-webkit-transition: transform 3s ease; /** Chrome & Safari **/
+ 	-moz-transition: transform 3s ease; /** Firefox **/
+ 	-o-transition: transform 3s ease; /** Opera **/
+ }
+
+
+ /*FIN PRIMERA FILA DESLIZABLE ACADEMIA*/
+
+ #webDesing-description{
+
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding:4% 10% 4% 10%;
+ }
+
+
+ .sliding-half{
+ 	height: 100%;
+ 	background-color:#343a40 ;
+ 	width: 50%;
+ }
+ #full-slider{
+ 	height: 100%;
+ 	overflow: hidden;
+ 	position:absolute;
+ 	padding:0;
+ }
+ #right-slider{
+ 	overflow: hidden;
+ 	position:absolute;
+ 	display:flex;
+ 	justify-content: flex-start;
+ 	align-items: center;
+ 	height: 100%;
+ 	right: 0px;
+ 	transition: transform 2s ease;
+ 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
+ 	-moz-transition: transform 2s ease; /** Firefox **/
+ 	-o-transition: transform 2s ease; /** Opera **/
+ }
+ #left-slider{
+ 	display:flex;
+ 	justify-content: flex-end;
+ 	align-items: center;
+ 	height: 100%;
+ 	overflow: hidden;
+ 	transition: transform 2s ease;
+ 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
+ 	-moz-transition: transform 2s ease; /** Firefox **/
+ 	-o-transition: transform 2s ease; /** Opera **/
+ }
+
+  /*
+
+    FILA DESLIZABLE DE MELODIAS
+
+  */
+  #DescripcionMelodias{
+ 	 		display:flex;
+ 			justify-content: center;
+ 			align-items: center;
+ 			text-align: center;
+ 			width: 100%;
+ 			overflow: hidden;
+ 			padding:4% 12% 4% 12%;
+  }
+
+  #deslizableSuperiorMelodias {
+ 	    position:absolute;
+ 	 		display:flex;
+ 			justify-content: center;
+ 			align-items: center;
+ 			height: 100%;
+ 			background-color: #343a40;
+ 			transition: transform 2s easet;
+ 			-webkit-transition: transform 2s ease; /** Chrome & Safari **/
+ 			-moz-transition: transform 2s ease; /** Firefox **/
+ 			-o-transition: transform 2s ease; /** Opera **/
+  }
+
+
+ #main-image{
+ 	  background-image: url(../images/fila0.jpg);
+ 		height: 600px !important;
+ }
+ #First-imageRow{
+ 		background-image: url(../images/fila0.jpg);
+ }
+ #Second-imageRow{
+ 		background-image: url(../images/fila2.jpg);
+
+ }
+ #Third-imageRow{
+ 		background-image: url(../images/fila3.jpg);
+ }
+ .rowImage{
+ 	    background-size:cover;
+     	background-attachment: fixed;
+ 		  display: flex;
+ 			height: 300px;
+ }
+
+ /**RESPONSIVE DESING SECTION, ONLY TO MAIN PAGE*/
+ @media (max-width: 575.98px) {
+ 	#main-image{
+ 			height: 300px !important;
+ 	}
+ 	.welcome-MobileMode{
+ 		font-size: 1.2em;
+ 		padding-bottom:8%;
+ 	}
+ 	.descriptions{
+ 		font-size:1.2em;
+ 		text-align: center !important;
+ 	}
+ 	.row-titles{
+ 		font-size:2.5em;
+ 		color:white;
+ 	}
+
+  }
+ /*// Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+ 	#main-image{
+ 			height: 400px !important;
+ 	}
+   .home-Welcome-textBox , #home-welcome-text {
+ 		display: none;
+ 	}
+ 	.welcome-MobileMode{
+ 		font-size: 1.3em;
+ 		padding-bottom: 8%;
+ 	}
+
+ 	.descriptions{
+ 		font-size: 1.3em;
+ 		text-align: center !important;
+ 	}
+ 	.row-titles{
+ 		font-size:3.5em;
+ 		color:white;
+ 	}
+
+ 	#Second-imageRow{
+ 			background-image: url(../images/fila2_sm.jpg);
+ 	}
+
+ 	}
+
+ /* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 	#main-image{
+ 			height: 500px !important;
+ 	}
+ 	.welcome-MobileMode{
+ 		font-size: 1.5em;
+ 		padding-bottom: 8%;
+ 	}
+ 	.descriptions{
+ 		font-size: 1.5em;
+ 		text-align: center !important;
+ 	}
+ 	.row-titles{
+ 		font-size:3.5em;
+ 		color:white;
+ 	}
+ 	#Second-imageRow{
+ 			background-image: url(../images/fila2_md.jpg);
+
+ 	}
+ 	#Third-imageRow{
+ 			background-image: url(../images/fila3_md.jpg);
+ 	}
+
+
+  }
+
+ /*// Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+ 	.welcome-MobileMode{
+ 		font-size: 1.5em;
+ 		padding-bottom: 8%;
+ 	}
+ 	.descriptions{
+ 		font-size: 1.5em;
+ 		text-align: center !important;
+ 	}
+ 	.row-titles{
+ 		font-size:3.5em;
+ 		color:white;
+ 	}
+ 	#Second-imageRow{
+ 			background-image: url(../images/fila2_md.jpg);
+
+ 	}
+ 	#Third-imageRow{
+ 			background-image: url(../images/fila3_lg.jpg);
+ 	}
+ }
+ /* Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) {
+ 	.welcome-MobileMode{
+  	  font-size: 1.5em;
+   }
+ 	.descriptions{
+ 		font-size: 1.5em;
+ 		text-align: center !important;
+ 	}
+ 	.row-titles{
+ 		font-size:4em;
+ 		color:white;
+ 	}
+ 	#Second-imageRow{
+ 			background-image: url(../images/fila2_md.jpg);
+
+ 	}
+ 	#Third-imageRow{
+ 			background-image: url(../images/fila3_lg.jpg);
+ 	}
+
+  }
