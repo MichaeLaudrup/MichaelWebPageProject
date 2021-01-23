@@ -4,7 +4,6 @@
 <!-- Este mensaje de bienvenida solo se muestra en pc, table... no movil-->
 
 
-
 <div class="container-fluid">
 	<div id="main-image" class="row rowImage">
 
@@ -31,7 +30,7 @@
 	</div>
 
 	<!-- SECCION DE DESCROPCION DE WEB DESING CON DESLIZABLES -->
-	<div class="row" >
+	<div class="row" onclick="redirigir('?pagina=webdesingzone')" >
 		<div id="webDesing-description" class="col-12 description-box" >
 		<p class="descriptions">En este espacio apreciaras como puedo ayudar a tu empresa descubriendo mi potencial creativo en el arte del diseño web, con un desarrollo full-stack (Front-end y Back-end)
 		en modelos de negocio totalmente diversos.  </p>
@@ -49,7 +48,7 @@
 
 	<div id="Third-imageRow" class="row rowImage">
 	</div>
-  <div class="row" >
+  <div class="row"  >
 			<div id="DescripcionMelodias" class="col-12 description-box">
 				 <p class="descriptions">Dicen que la música es el reflejo del alma, que mejor manera de mostrarse al mundo que mostrando tu música, en el rincón de melodías podrás escuchar ciertas composiciones musicales
 				 que he realizado de manera informal y que tal vez puedan endulzar tus oídos.</p>

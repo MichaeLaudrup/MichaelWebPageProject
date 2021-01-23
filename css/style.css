@@ -224,10 +224,10 @@
  	align-items: center;
  	height: 100%;
  	right: 0px;
- 	transition: transform 2s ease;
- 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
- 	-moz-transition: transform 2s ease; /** Firefox **/
- 	-o-transition: transform 2s ease; /** Opera **/
+ 	transition: transform 3s ease;
+ 	-webkit-transition: transform 3s ease; /** Chrome & Safari **/
+ 	-moz-transition: transform 3s ease; /** Firefox **/
+ 	-o-transition: transform 3s ease; /** Opera **/
  }
  #left-slider{
  	display:flex;
@@ -235,10 +235,10 @@
  	align-items: center;
  	height: 100%;
  	overflow: hidden;
- 	transition: transform 2s ease;
- 	-webkit-transition: transform 2s ease; /** Chrome & Safari **/
- 	-moz-transition: transform 2s ease; /** Firefox **/
- 	-o-transition: transform 2s ease; /** Opera **/
+ 	transition: transform 3s ease;
+ 	-webkit-transition: transform 3s ease; /** Chrome & Safari **/
+ 	-moz-transition: transform 3s ease; /** Firefox **/
+ 	-o-transition: transform 3s ease; /** Opera **/
  }
 
   /*
@@ -333,7 +333,7 @@
  	}
 
  	#Second-imageRow{
- 			background-image: url(../images/fila2_sm.jpg);
+ 		background-image: url(../images/fila2_sm.jpg);
  	}
 
  	}
@@ -409,4 +409,11 @@
  			background-image: url(../images/fila3_lg.jpg);
  	}
 
+  }
+
+  /*===================================================
+  *                 WEB DESING SECTION                                                        
+  *====================================================*/
+  #titleWD {
+	text-align: center;
   }

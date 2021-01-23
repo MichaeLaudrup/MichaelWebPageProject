@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
 
-	<header>
+	<header >
     <!-- Area de navegacion -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <nav id="menuNavegacion" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <!-- Marca de la web -->
         <a id="brand-title" class="navbar-brand " href="index.php">Michael's PortFolio</a>
         <!-- Boton de menu desplegable en formato movil -->
@@ -16,10 +16,10 @@
           <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" >Academia</a>
+          <a class="nav-link" href="" >Academia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Diseño Web</a>
+          <a class="nav-link" href="index.php?pagina=webdesingzone">Diseño Web</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" >Melodías</a>
