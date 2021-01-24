@@ -54,7 +54,7 @@
   <!-- Pie de pagina web -->
     <footer>
     <!-- Footer Elements -->
-        <div class="container-fluid">
+        <div class="container-fluid" >
         <!-- Grid row-->
             <div class="row">
                 <div id="contenedor-iconos" class="col-12" >
