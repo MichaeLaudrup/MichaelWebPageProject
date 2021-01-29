@@ -1,5 +1,5 @@
 
-let paginaActual = window.location.toString(); //Se obtiene URL de pagina web actual
+let paginaActual = window.location.toString(); 
 
 function redirigir(recibido){
    const url_inicio = window.location.toString(); 
@@ -45,56 +45,56 @@ if(paginaActual.endsWith("index.php")){  //Si la URL de la pagina actual acaba c
     }
   })
 }else if(paginaActual.endsWith("webdesingzone")){ //Si la url actual acaba con "webdesingzone" entonces ejecutamos codigo propio de la seccion de desarrollo web
-let slider = document.querySelector('.slider');
-let wrapper = document.querySelector('.wrapper');
-let next = document.querySelector('.arrow-next');
-let prev = document.querySelector('.arrow-prev');
-let item = document.querySelectorAll('.item');
-let currdeg  = 0;
-let active = 0;
+      let slider = document.querySelector('.slider');
+      let wrapper = document.querySelector('.wrapper');
+      let next = document.querySelector('.arrow-next');
+      let prev = document.querySelector('.arrow-prev');
+      let item = document.querySelectorAll('.item');
+      let currdeg  = 0;
+      let active = 0;
 
-next.addEventListener('click', () => {
-    slider.classList.toggle('zoom');
+      next.addEventListener('click', () => {
+          slider.classList.toggle('zoom');
 
-    currdeg = currdeg - 120;
+          currdeg = currdeg - 120;
 
-    if (active === item.length - 1) {
-        active = 0;
-    } else {
-        active++;
-    }
+          if (active === item.length - 1) {
+              active = 0;
+          } else {
+              active++;
+          }
 
-    toggle();
-});
+          toggle();
+      });
 
-prev.addEventListener('click', () => {
-    slider.classList.toggle('zoom');
+    prev.addEventListener('click', () => {
+        slider.classList.toggle('zoom');
 
-    currdeg = currdeg + 120;
+        currdeg = currdeg + 120;
 
-    if (active === 0) {
-        active = item.length - 1;
-    } else {
-        active--;
-    }
-
-    toggle();
-});
-
-let toggle = () => {
-    setTimeout(() => {
-        for (let i = 0; i < item.length; i++) {
-            item[i].classList.remove('active');
+        if (active === 0) {
+            active = item.length - 1;
+        } else {
+            active--;
         }
 
-        item[active].classList.add('active')
-        wrapper.style.transform = 'rotateY(' + currdeg + 'deg)';
-    }, 900);
+        toggle();
+    });
 
-    setTimeout(() => {
-        slider.classList.toggle('zoom');
-    }, 1900);
-}
+    let toggle = () => {
+        setTimeout(() => {
+            for (let i = 0; i < item.length; i++) {
+                item[i].classList.remove('active');
+            }
+
+            item[active].classList.add('active')
+            wrapper.style.transform = 'rotateY(' + currdeg + 'deg)';
+        }, 900);
+
+        setTimeout(() => {
+            slider.classList.toggle('zoom');
+        }, 1900);
+    }
     
 }
 

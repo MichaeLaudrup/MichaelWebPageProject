@@ -12,7 +12,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     color: #fff
 }
 .slider {
@@ -102,6 +102,8 @@ body {
     -ms-flex-pack: center;
     justify-content: center
 }
+
+
 .item,
 .item__info,
 .wrapper {
@@ -171,7 +173,7 @@ body {
     font-weight: 700
 }
 .item__name,
-.item__year {
+.item__description {
     font-size: 45px;
     letter-spacing: 3px;
     margin-bottom: 35px;
@@ -180,14 +182,14 @@ body {
     will-change: transform
 }
 .item__name span,
-.item__year span {
+.item__description span {
     display: inline-block;
     -webkit-transform: scale(.7);
     -ms-transform: scale(.7);
     transform: scale(.7);
     white-space: nowrap
 }
-.item__year span {
+.item__description span {
     position: relative;
     will-change: transform;
     top: 27px;
@@ -281,4 +283,121 @@ body {
         left: -110px!important
     }
 }
+
+
+
+/* ======= ESTILO APLICABLES A CADA ELEMENTOS DEL DOCUMENTO HTML */
+*{
+	box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+/*======= FIN ESTILOS GLOBALES =========*/
+
+/*==========================================
+	ESTILOS APLICABLES A NAVEGADOR Y FOOTER
+	===========================================*/
+/*Menu de navegacion principal*/
+.navbar{
+	opacity:0.9; /*Opacidad de navegador principal */
+}
+#brand-title{
+	font-family: 'Cinzel Decorative', cursive;
+}
+#navbarNav{
+	flex-direction:row-reverse;
+}
+#lista {
+	opacity:0.8;
+}
+#lista > li > a{
+	padding-left:3vw;
+}
+
+
+@media (max-width: 575.98px) {
+	#brand-title{
+		font-size: 4.5vw;
+	}
+	#lista {
+		font-size: 1.5em;
+		opacity:0.8;
+	}
+
+ }
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*EDICION MENU_NAVEGADOR RESPONSIVE*/
+	#brand-title{
+		font-size: 1.5em;
+	}
+	#lista {
+		color:white;
+		font-size: 1.4em;
+		opacity:0.8;
+	}
+	/*FIN EDICION NAVEGADOR*/
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*EDICION DE MENU*/
+	#brand-title{
+		font-size: 1em;
+	}
+	#lista {
+		font-size: 1em;
+		opacity:0.8;
+	}
+	/*FIN EDICION DE MENU*/
+ }
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+#brand-title{
+	font-size: 1.6em;
+}
+#lista {
+	font-size: 1.2em;
+	opacity:0.8;
+}
+
+}
+/* COMIENZO EDICION FOOTER */
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#brand-title{
+		font-size: 1.7em;
+	}
+	#lista {
+		font-size: 1.6em;
+		opacity:1;
+	}
+ }
+
+ #contenedor-iconos{
+   height:250px;
+   background-color: #343a40;
+   opacity: 0.9;
+   width: 100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .area-link{
+   height: 20%;
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .iconos{
+    width: 100%;
+    height:100%;
+
+ }
+  /*FIN EDICION FOOTER */
+  /*FIN ESTILOS DE NAVEGADOR Y FOOTER (COMUN A TODOS LOS ARCHIVOS CSS DE LAS PAGINAS PRINCIPALES)*/
 

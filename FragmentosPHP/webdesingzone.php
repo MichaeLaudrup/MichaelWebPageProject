@@ -29,21 +29,21 @@
     <div class="wrapper">
         <div style="background-image: url('images/slide2.jpg')" class="item item1 active">
             <div class="item__info">
-                <p class="item__year"><span>La zona del oráculo</span></p>
+                <p class="item__description"><span>La zona del oráculo</span></p>
                 <p class="item__name"><span>Descubre la información que puede obtener de ti cualquier web</span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>
         </div>
         <div style="background-image: url('images/slide1.jpg')" class="item item2">
             <div class="item__info">
-                <p class="item__year"><span>BIG DATA ZONE</span></p>
+                <p class="item__description"><span>BIG DATA ZONE</span></p>
                 <p class="item__name"><span>Te enseñamos como obtener oro de los datos</span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>
         </div>
         <div style="background-image: url('images/slide3.jpg')" class="item item3">
             <div class="item__info">
-                <p class="item__year"><span>PROXIMAMENTE</span></p>
+                <p class="item__description"><span>PROXIMAMENTE</span></p>
                 <p class="item__name"><span>Nuevos proyectos web estan por venir</span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>

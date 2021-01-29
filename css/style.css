@@ -1,13 +1,14 @@
-
-
 /* ======= ESTILO APLICABLES A CADA ELEMENTOS DEL DOCUMENTO HTML */
 *{
 	box-sizing: border-box;
-  font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
 }
 
-
 /*======= FIN ESTILOS GLOBALES =========*/
+
+/*==========================================
+	ESTILOS APLICABLES A NAVEGADOR Y FOOTER
+	===========================================*/
 /*Menu de navegacion principal*/
 .navbar{
 	opacity:0.9; /*Opacidad de navegador principal */
@@ -38,6 +39,7 @@
  }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	/*EDICION MENU_NAVEGADOR RESPONSIVE*/
 	#brand-title{
 		font-size: 1.5em;
 	}
@@ -46,11 +48,13 @@
 		font-size: 1.4em;
 		opacity:0.8;
 	}
+	/*FIN EDICION NAVEGADOR*/
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+    /*EDICION DE MENU*/
 	#brand-title{
 		font-size: 1em;
 	}
@@ -58,10 +62,8 @@
 		font-size: 1em;
 		opacity:0.8;
 	}
-
-
+	/*FIN EDICION DE MENU*/
  }
-
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
@@ -74,7 +76,7 @@
 }
 
 }
-/* FOOTER */
+/* COMIENZO EDICION FOOTER */
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	#brand-title{
@@ -108,8 +110,11 @@
     height:100%;
 
  }
+  /*FIN EDICION FOOTER */
+  /*FIN ESTILOS DE NAVEGADOR Y FOOTER (COMUN A TODOS LOS ARCHIVOS CSS DE LAS PAGINAS PRINCIPALES)*/
 
- /*MAIN PAGE STYLE*/
+
+ /*HOJA DE ESTILO DE PAGINA PRINCIPAL */
  /*Imagen principal de pagina de inicio*/
 
  .main-image {
@@ -192,8 +197,6 @@
  	-moz-transition: transform 3s ease; /** Firefox **/
  	-o-transition: transform 3s ease; /** Opera **/
  }
-
-
  /*FIN PRIMERA FILA DESLIZABLE ACADEMIA*/
 
  #webDesing-description{
@@ -410,16 +413,3 @@
  	}
 
   }
-
-  /*===================================================
-  *                 WEB DESING SECTION                                                        
-  *====================================================*/
-
-
-
-
-
-  
-
-
-  
