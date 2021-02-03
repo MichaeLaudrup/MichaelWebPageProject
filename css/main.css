@@ -102,8 +102,6 @@ body {
     -ms-flex-pack: center;
     justify-content: center
 }
-
-
 .item,
 .item__info,
 .wrapper {
@@ -172,24 +170,24 @@ body {
     text-transform: uppercase;
     font-weight: 700
 }
-.item__name,
-.item__description {
+.item__description,
+.item__title {
     font-size: 45px;
     letter-spacing: 3px;
     margin-bottom: 35px;
 
-    line-height: 30px;
+    line-height: 10px;
     will-change: transform
 }
-.item__name span,
-.item__description span {
+.item__description span,
+.item__title span {
     display: inline-block;
     -webkit-transform: scale(.7);
     -ms-transform: scale(.7);
     transform: scale(.7);
     white-space: nowrap
 }
-.item__description span {
+.item__title span {
     position: relative;
     will-change: transform;
     top: 27px;
@@ -197,12 +195,12 @@ body {
     -o-transition: all 900ms linear;
     transition: all 900ms linear
 }
-.item__name {
-    font-size: 30px;
+.item__description {
+    font-size: 120%;
     margin-bottom: 62px;
-    line-height: 55px
+    
 }
-.item__name span {
+.item__description span {
     top: 48px;
     -webkit-transition: all 900ms ease-in-out;
     -o-transition: all 900ms ease-in-out;
@@ -211,7 +209,7 @@ body {
 .arrow,
 .btn,
 .btn span,
-.item__name span {
+.item__description span {
     position: relative;
     will-change: transform
 }
@@ -219,6 +217,7 @@ body {
     background: #fff;
     color: #120d0b;
     padding: 0 33px;
+    padding-bottom:55px;
     text-decoration: none;
     display: inline-block;
     -webkit-transform: scale(.7);
@@ -232,7 +231,7 @@ body {
 }
 .arrow,
 .btn span {
-    top: 16px
+
 }
 .arrow {
     background: #8e2037;
@@ -265,12 +264,15 @@ body {
 }
 .arrow.arrow-next {
     right: 5em;
-    background: url(../images/arrow-right.svg) no-repeat center #8e2037
+    background: url(../images/arrow-right.svg) no-repeat center #343a40
 }
 .arrow.arrow-prev {
     left: 5em;
-    background: url(../images/arrow-left.svg) no-repeat center #8e2037
+    background: url(../images/arrow-left.svg) no-repeat center #343a40
 }
+
+
+
 @media (min-width: 1400px) {
     .slider {
         max-height: 700px;
@@ -284,7 +286,24 @@ body {
     }
 }
 
+@media (max-width: 575.98px) {
+	.item__description {
+        font-size: 50%;   
+    }
 
+    .item__title{
+        font-size: 140%; 
+    }
+    .arrow-next {
+        top:75%; 
+        right: 10% !important; 
+    }
+    .arrow-prev {
+        top:75%; 
+        left:10% !important;  
+    }
+
+ }
 
 /* ======= ESTILO APLICABLES A CADA ELEMENTOS DEL DOCUMENTO HTML */
 *{
@@ -322,7 +341,9 @@ body {
 	#lista {
 		font-size: 1.5em;
 		opacity:0.8;
-	}
+    }
+    
+
 
  }
 /*// Small devices (landscape phones, 576px and up)*/
@@ -400,4 +421,3 @@ body {
  }
   /*FIN EDICION FOOTER */
   /*FIN ESTILOS DE NAVEGADOR Y FOOTER (COMUN A TODOS LOS ARCHIVOS CSS DE LAS PAGINAS PRINCIPALES)*/
-

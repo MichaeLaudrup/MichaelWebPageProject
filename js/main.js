@@ -8,7 +8,7 @@ function redirigir(recibido){
 
 //Segun la pagina en la que no encontremos ejecutamos un codigo u otro
 
-if(paginaActual.endsWith("index.php")){  //Si la URL de la pagina actual acaba con "index.php" entonces estamos en la pagina de inicio
+if(paginaActual.endsWith("index.php") || paginaActual.endsWith(".es/") ){  //Si la URL de la pagina actual acaba con "index.php" entonces estamos en la pagina de inicio
   const deslizableAcademia = this.document.getElementById("deslizableSuperiorAcademia");
   const deslizableIzqWebDesing = this.document.getElementById("left-slider"); 
   const deslizableDerWebDesing =  this.document.getElementById("right-slider"); 

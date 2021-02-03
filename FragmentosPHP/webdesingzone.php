@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head lang="es">
@@ -29,25 +28,26 @@
     <div class="wrapper">
         <div style="background-image: url('images/slide2.jpg')" class="item item1 active">
             <div class="item__info">
-                <p class="item__description"><span>La zona del oráculo</span></p>
-                <p class="item__name"><span>Descubre la información que puede obtener de ti cualquier web</span></p>
+                <p class="item__title"><span>La zona del oráculo</span></p>
+                <p class="item__description"><span>Descubre la información que puede obtener de ti cualquier web</span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>
         </div>
         <div style="background-image: url('images/slide1.jpg')" class="item item2">
             <div class="item__info">
-                <p class="item__description"><span>BIG DATA ZONE</span></p>
-                <p class="item__name"><span>Te enseñamos como obtener oro de los datos</span></p>
+                <p class="item__title"><span>BIG DATA ZONE</span></p>
+                <p class="item__description"><span>Descubre el potencial de sacar oro de cantidades masivas de datos</span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>
         </div>
         <div style="background-image: url('images/slide3.jpg')" class="item item3">
             <div class="item__info">
-                <p class="item__description"><span>PROXIMAMENTE</span></p>
-                <p class="item__name"><span>Nuevos proyectos web estan por venir</span></p>
+                <p class="item__title"><span>NUEVOS PROYECTOS PROXIMAMENTE</span></p>
+                <p class="item__description"><span>Ecommerce, Inteligencia artificial, ciberseguridad...etc </span></p>
                 <a href="javascript:void(0)" class="btn"><span>Descubre más</span></a>
             </div>
         </div>
+        
     </div>
 
     <div class="arrow arrow-next"></div>
@@ -57,9 +57,3 @@
 <script src="js/main.js"></script>
 </body>
 </html>
-
-
-  
-
-    
-

@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-
+    
 </head>
 <body>
 	  <!-- Cabecera de la pagina web -->
