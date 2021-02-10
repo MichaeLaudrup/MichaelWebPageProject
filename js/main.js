@@ -1,4 +1,3 @@
-
 let paginaActual = window.location.toString(); 
 
 function redirigir(recibido){
@@ -43,7 +42,7 @@ if(paginaActual.endsWith("index.php") || paginaActual.endsWith(".es/") ){  //Si 
         deslizableMelodias.style.transform =`translate(100%,0)`; 
       }
     }
-  })
+  });
 }else if(paginaActual.endsWith("webdesingzone")){ //Si la url actual acaba con "webdesingzone" entonces ejecutamos codigo propio de la seccion de desarrollo web
       let slider = document.querySelector('.slider');
       let wrapper = document.querySelector('.wrapper');
@@ -96,6 +95,15 @@ if(paginaActual.endsWith("index.php") || paginaActual.endsWith(".es/") ){  //Si 
         }, 1900);
     }
     
+}else if(paginaActual.endsWith("academiazone")){
+    let primeraFila = document.getElementById('fila1')
+    document.addEventListener('scroll',function(){
+        let distanciaAltoPrimeraFila = primeraFila.getBoundingClientRect().top; 
+        console.log(distanciaAltoPrimeraFila); 
+
+
+    });
+
 }
 
 

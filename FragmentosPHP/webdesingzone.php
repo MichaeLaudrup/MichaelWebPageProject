@@ -6,7 +6,6 @@
     <title>3D Carousel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=1024">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -54,6 +53,6 @@
     <div class="arrow arrow-prev"></div>
 </div>
 
-<script src="js/main.js"></script>
+
 </body>
 </html>

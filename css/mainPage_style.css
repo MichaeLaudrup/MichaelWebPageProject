@@ -151,7 +151,6 @@
       box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
  }
  #home-welcome-text{
- 	color:white;
  	margin-bottom:2px;
  	font-family: 'Crimson Text',sans-serif;
  }
@@ -246,9 +245,7 @@
  }
 
   /*
-
     FILA DESLIZABLE DE MELODIAS
-
   */
   #DescripcionMelodias{
  	 		display:flex;

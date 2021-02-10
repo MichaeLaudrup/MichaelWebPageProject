@@ -8,8 +8,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-    
+    <script> 
+         /*Cargado de hojas de stylo de cascada segun la pagina web que se abra
+            *Esto evita tener que hacer multiples peticiones HTTP dependiendo de la seccion que se cargue dinamicamente.
+            *Permite ademas que el codigo css este mejor organizado y dividido sin afectar al rendimiento dado que solo se hace una peticion HTTP
+         */ 
+         if(window.location.toString().endsWith("academiazone")){
+             document.write('<link rel="stylesheet" href="css/academi_style.css">'); 
+         }else{
+             document.write('<link rel="stylesheet" href="css/mainPage_style.css">'); 
+         }
+    </script>  
 </head>
 <body>
 	  <!-- Cabecera de la pagina web -->
@@ -28,7 +37,7 @@
                     <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="" >Academia</a>
+                    <a class="nav-link" href="index.php?pagina=academiazone" >Academia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?pagina=webdesingzone">Diseño Web</a>
@@ -40,7 +49,7 @@
                     <a target="_blank" class="nav-link" href="Documentos/CV_VersionWeb.pdf">MiCV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" >Contacto</a>
+                    <a class="nav-link" href="mailto:maikelaudrupluisgonzalez@gmail.com?Subject=Solicitud%20de%20información" >Contacto</a>
                 </li>
             </ul>
         </div>
@@ -75,6 +84,6 @@
     <!-- Fin de pie de pagina web -->
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script async src="js/main.js"></script>
 </body>
 </html>
