@@ -7,14 +7,19 @@
 	<title>Michael Laudrup WebSite</title>
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    
+    
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <script> 
-         /*Cargado de hojas de stylo de cascada segun la pagina web que se abra
-            *Esto evita tener que hacer multiples peticiones HTTP dependiendo de la seccion que se cargue dinamicamente.
-            *Permite ademas que el codigo css este mejor organizado y dividido sin afectar al rendimiento dado que solo se hace una peticion HTTP
+         /*Cargado de hojas de estilo de cascada segun la pagina web que se abra
+            *Esto evita tener que hacer multiples peticiones HTTP y solo realiza un peticion HTTP dependiendo de la seccion que se cargue dinamicamente.
+            *Permite ademas que el codigo css este mejor organizado y dividido sin afectar al rendimiento por lo explicado en anterior punto
          */ 
          if(window.location.toString().endsWith("academiazone")){
              document.write('<link rel="stylesheet" href="css/academi_style.css">'); 
+         }else if(window.location.toString().endsWith("webdesingzone")){
+            document.write('<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">'); 
+            document.write('<link rel="stylesheet" href="css/webDesing_style.css">');
          }else{
              document.write('<link rel="stylesheet" href="css/mainPage_style.css">'); 
          }

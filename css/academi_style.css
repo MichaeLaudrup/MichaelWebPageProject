@@ -11,16 +11,31 @@ body{
     background-size: 100%;
 }
 #contenedor-principal{
-    margin-top:40%;
- 
+    margin-top:30%;
 }
 .row {
     font-family: 'Crimson Text', serif;
 }
 
-.filasConContenido{
-    background-color:  #343a40;
+#fila1{
+    background-image: url(../images/academi_zone/Fila1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-top: 5%;
+}
+
+#fila1-izq{ 
+    animation-name:aparecerDeLaIzquierda; 
+    animation-duration:2s; 
+}
+
+@keyframes aparecerDeLaIzquierda {
+    from{
+        transform: translateX(-100%); 
+    }
+    to{
+        transform: translateX(0%);
+    }
 }
 .titulosDescripciones{
     margin-top: 5%; 
@@ -38,7 +53,7 @@ body{
 }
 .filasSinContenido{
     display: flex;
-    height: 200px;
+    height: 300px;
 }
 
 @media (max-width: 575.98px) {
@@ -61,26 +76,7 @@ body{
 
 }
 @media (min-width: 1200px) {
-    #img-1{
-        position:absolute; 
-        margin-top:2%; 
-        margin-left:5%; 
-        background-image: url(../images/uned2.jpg) ;
-        background-repeat: no-repeat;
-        background-position:center; 
-        min-width: 45%;
-        height: 100%;
-    }
-    #img-2{
-        position:absolute; 
-        margin-top:2%; 
-        margin-left:40%; 
-        background-image: url(../images/uned3.jpg) ;
-        background-repeat: no-repeat;
-        background-position:center; 
-        min-width: 45%;
-        height: 100%;
-    }
+    
  }
 
  /*==========================================

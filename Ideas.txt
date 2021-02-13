@@ -1,0 +1,1 @@
+con la hora local se puede obtener la region geografica (p.ej: GMT -6000 indica mexico)
