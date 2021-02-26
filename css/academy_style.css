@@ -18,15 +18,13 @@ body{
 }
 
 #fila1{
-    background-image: url(images/academi_zone/Fila1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #343a40; 
     margin-top: 5%;
 }
 
 #fila1-izq{ 
     animation-name:aparecerDeLaIzquierda; 
-    animation-duration:2s; 
+    animation-duration:3s; 
 }
 
 @keyframes aparecerDeLaIzquierda {
@@ -46,7 +44,8 @@ body{
 .descripciones{
     line-height: 30px;
     font-size: 1.5em;
-    padding-left:7.5%; 
+    padding-left:5%; 
+    padding-right:5%;
     color: white; 
     text-align: justify;
     margin-bottom: 7.5%;
