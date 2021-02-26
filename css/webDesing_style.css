@@ -264,11 +264,11 @@ body {
 }
 .arrow.arrow-next {
     right: 5em;
-    background: url(../images/arrow-right.svg) no-repeat center #343a40
+    background: url(images/arrow-right.svg) no-repeat center #343a40
 }
 .arrow.arrow-prev {
     left: 5em;
-    background: url(../images/arrow-left.svg) no-repeat center #343a40
+    background: url(images/arrow-left.svg) no-repeat center #343a40
 }
 
 

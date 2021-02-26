@@ -16,7 +16,7 @@
 	<div id="First-imageRow" class="onlyphone row rowImage">
 	</div>
 
-	<div class="row">
+	<div class="row" onclick="redirigir('?pagina=academyzone')">
 		<div id="DescripcionAcademia" class="col-12 description-box">
 			<p class="descriptions">Cuando empezamos a explorar el mundo de desarrollo web, lo primero que se aprecia es que la cantidad de tecnologías existentes es abrumadora, el objetivo
 			de academia, es poner un poco de orden, dandote información de alta calidad que te permita entender cuando debes usar unas u otras tecnologías.</p>

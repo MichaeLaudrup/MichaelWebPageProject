@@ -7,24 +7,21 @@
 	<title>Michael Laudrup WebSite</title>
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-    
-    
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <script> 
-         /*Cargado de hojas de estilo de cascada segun la pagina web que se abra
-            *Esto evita tener que hacer multiples peticiones HTTP y solo realiza un peticion HTTP dependiendo de la seccion que se cargue dinamicamente.
-            *Permite ademas que el codigo css este mejor organizado y dividido sin afectar al rendimiento por lo explicado en anterior punto
-         */ 
-         if(window.location.toString().endsWith("academiazone")){
-             document.write('<link rel="stylesheet" href="css/academi_style.css">'); 
-         }else if(window.location.toString().endsWith("webdesingzone")){
-            document.write('<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">'); 
-            document.write('<link rel="stylesheet" href="css/webDesing_style.css">');
-         }else{
-             document.write('<link rel="stylesheet" href="css/mainPage_style.css">'); 
-         }
-    </script>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <?php 
+        $paginaActual = isset($_GET['pagina']) ? $_GET['pagina'] : 'mainPage'; 
+        if($paginaActual === 'webdesingzone'){
+            echo '<style>' . file_get_contents('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css') . '</style>'; 
+            echo '<style>' . file_get_contents('css/webDesing_style.css') . '</style>'; 
+        }else if($paginaActual === 'academyzone'){
+            echo '<style>' . file_get_contents('css/academy_style.css') . '</style>';
+        }else{
+            echo '<style>' . file_get_contents('css/mainPage_style.css') . '</style>';
+        }
+    ?>
 </head>
+
 <body>
 	  <!-- Cabecera de la pagina web -->
     <header id="cabecera">
@@ -42,7 +39,7 @@
                     <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?pagina=academiazone" >Academia</a>
+                    <a class="nav-link" href="index.php?pagina=academyzone" >Academia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?pagina=webdesingzone">Diseño Web</a>

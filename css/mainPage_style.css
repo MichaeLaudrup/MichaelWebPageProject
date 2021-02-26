@@ -272,18 +272,18 @@
 
 
  #main-image{
- 	  background-image: url(../images/fila0.jpg);
+ 	  background-image: url(images/fila0.jpg);
  		height: 600px !important;
  }
  #First-imageRow{
- 		background-image: url(../images/fila0.jpg);
+ 		background-image: url(images/fila0.jpg);
  }
  #Second-imageRow{
- 		background-image: url(../images/fila2.jpg);
+ 		background-image: url(images/fila2.jpg);
 
  }
  #Third-imageRow{
- 		background-image: url(../images/fila3.jpg);
+ 		background-image: url(images/fila3.jpg);
  }
  .rowImage{
  	    background-size:cover;
@@ -334,7 +334,7 @@
  	}
 
  	#Second-imageRow{
- 		background-image: url(../images/fila2_sm.jpg);
+ 		background-image: url(images/fila2_sm.jpg);
  	}
 
  	}
@@ -357,14 +357,12 @@
  		color:white;
  	}
  	#Second-imageRow{
- 			background-image: url(../images/fila2_md.jpg);
+ 			background-image: url(images/fila2_md.jpg);
 
  	}
  	#Third-imageRow{
- 			background-image: url(../images/fila3_md.jpg);
+ 			background-image: url(images/fila3_md.jpg);
  	}
-
-
   }
 
  /*// Large devices (desktops, 992px and up)*/
@@ -382,11 +380,11 @@
  		color:white;
  	}
  	#Second-imageRow{
- 			background-image: url(../images/fila2_md.jpg);
+ 			background-image: url(images/fila2_md.jpg);
 
  	}
  	#Third-imageRow{
- 			background-image: url(../images/fila3_lg.jpg);
+ 			background-image: url(images/fila3_lg.jpg);
  	}
  }
  /* Extra large devices (large desktops, 1200px and up)*/
@@ -403,11 +401,11 @@
  		color:white;
  	}
  	#Second-imageRow{
- 			background-image: url(../images/fila2_md.jpg);
+ 			background-image: url(images/fila2_md.jpg);
 
  	}
  	#Third-imageRow{
-			 background-image: url(../images/fila3_lg.jpg);
+			 background-image: url(images/fila3_lg.jpg);
  	}
 
   }
