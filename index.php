@@ -16,6 +16,8 @@
             echo '<style>' . file_get_contents('css/webDesing_style.css') . '</style>'; 
         }else if($paginaActual === 'academyzone'){
             echo '<style>' . file_get_contents('css/academy_style.css') . '</style>';
+        }else if($paginaActual === 'cvitaezone'){
+            echo '<style>' . file_get_contents('css/cVitae_style.css') . '</style>';
         }else{
             echo '<style>' . file_get_contents('css/mainPage_style.css') . '</style>';
         }
@@ -48,7 +50,7 @@
                     <a class="nav-link" href="#" >Melodías</a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="Documentos/CV_VersionWeb.pdf">MiCV</a>
+                    <a target="_blank" class="nav-link" href="index.php?pagina=cvitaezone">MiCV</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:maikelaudrupluisgonzalez@gmail.com?Subject=Solicitud%20de%20información" >Contacto</a>
