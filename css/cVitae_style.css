@@ -29,6 +29,15 @@ body {
 	margin-right: 5%;
 	margin-left: 5%;
 }
+
+.box:hover > a > img {
+	width: 106%;
+	-webkit-transition: width 500ms ease-in-out;
+	-moz-transition: width 500ms ease-in-out;
+	-ms-transition: width 500ms ease-in-out;
+	-o-transition: width 500ms ease-in-out;
+	transition: width 500ms ease-in-out;
+}
 #box2{
 	margin-right:5%; 
 	margin-left: 5%;
@@ -37,6 +46,11 @@ body {
 .box > a > img {
 	width: 100%; 
 	border-radius: 15px; 
+	-webkit-transition: width 500ms ease-in-out;
+	-moz-transition: width 500ms ease-in-out;
+	-ms-transition: width 500ms ease-in-out;
+	-o-transition: width 500ms ease-in-out;
+	transition: width 500ms ease-in-out;
 }
 
 
@@ -101,6 +115,7 @@ body {
 	body{
 		background-image: url(images/cvitae_zone/background3.jpg);
 	}
+
     /*EDICION DE MENU*/
 	#brand-title{
 		font-size: 1em;
@@ -128,6 +143,8 @@ body {
 /* COMIENZO EDICION FOOTER */
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+	
+	
 	body{
 		background-image: url(images/cvitae_zone/background.jpg);
 	}
