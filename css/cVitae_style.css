@@ -2,64 +2,44 @@
 
 
 
-
-
-
-
-
-
-
-
 /* ======= ESTILO APLICABLES A CADA ELEMENTOS DEL DOCUMENTO HTML */
 *{
 	box-sizing: border-box;
     font-family: 'Crimson Text', serif;
 }
-
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
 
 .contenedor{
-	height: 800px; 
+	height:650px; 
 	display:flex; 
 }
 #fil{
+	margin-top: 5%;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-around;
 	justify-content: center;
 }
-.box{
-	flex:display; 
-	align-items: center;
-	justify-content: center;
-
-}
-
 #box1{
-	margin-right: 10%;
+	margin-right: 5%;
 	margin-left: 5%;
-	text-align: center;	
 }
 #box2{
 	margin-right:5%; 
-}
-
-.box > a {
-	display:flex; 
+	margin-left: 5%;
 }
 
 .box > a > img {
 	width: 100%; 
-	border-radius: 15px;
+	border-radius: 15px; 
 }
 
 
-
-body {
-    background-image: url(images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: 100%;
-}
 /*======= FIN ESTILOS GLOBALES =========*/
 
 /*==========================================
@@ -84,6 +64,9 @@ body {
 
 
 @media (max-width: 575.98px) {
+	body{
+		background-image: url(images/cvitae_zone/background2.jpg);
+	}	
 	#brand-title{
 		font-size: 4.5vw;
 	}
@@ -97,6 +80,9 @@ body {
  }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	body{
+		background-image: url(images/cvitae_zone/background2.jpg);
+	}
 	/*EDICION MENU_NAVEGADOR RESPONSIVE*/
 	#brand-title{
 		font-size: 1.5em;
@@ -112,6 +98,9 @@ body {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+	body{
+		background-image: url(images/cvitae_zone/background3.jpg);
+	}
     /*EDICION DE MENU*/
 	#brand-title{
 		font-size: 1em;
@@ -124,19 +113,24 @@ body {
  }
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-#brand-title{
-	font-size: 1.6em;
-}
-#lista {
-	font-size: 1.2em;
-	opacity:0.8;
-}
+	body{
+		background-image: url(images/cvitae_zone/background3.jpg);
+	}
+	#brand-title{
+		font-size: 1.6em;
+	}
+	#lista {
+		font-size: 1.2em;
+		opacity:0.8;
+	}
 
 }
 /* COMIENZO EDICION FOOTER */
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+	body{
+		background-image: url(images/cvitae_zone/background.jpg);
+	}
 	#brand-title{
 		font-size: 1.7em;
 	}
