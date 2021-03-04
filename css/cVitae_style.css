@@ -1,13 +1,7 @@
 
 
 
-body {
-    background-image: url(images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: 100%;
-}
+
 
 
 
@@ -22,6 +16,50 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
+
+.contenedor{
+	height: 800px; 
+	display:flex; 
+}
+#fil{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box{
+	flex:display; 
+	align-items: center;
+	justify-content: center;
+
+}
+
+#box1{
+	margin-right: 10%;
+	margin-left: 5%;
+	text-align: center;	
+}
+#box2{
+	margin-right:5%; 
+}
+
+.box > a {
+	display:flex; 
+}
+
+.box > a > img {
+	width: 100%; 
+	border-radius: 15px;
+}
+
+
+
+body {
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
 /*======= FIN ESTILOS GLOBALES =========*/
 
 /*==========================================

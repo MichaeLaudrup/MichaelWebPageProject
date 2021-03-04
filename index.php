@@ -50,7 +50,7 @@
                     <a class="nav-link" href="#" >Melodías</a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="index.php?pagina=cvitaezone">MiCV</a>
+                    <a  class="nav-link" href="index.php?pagina=cvitaezone">MiCV</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:maikelaudrupluisgonzalez@gmail.com?Subject=Solicitud%20de%20información" >Contacto</a>
